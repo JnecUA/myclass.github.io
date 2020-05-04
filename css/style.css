@@ -1,4 +1,49 @@
-body {
-    padding: 0;
-    background-color: #000000;
+html {
+    box-sizing: border-box;
+    font-family: Ubuntu;
 }
+
+body {
+    margin: 0;
+}
+.header {
+    height: 40px;
+}
+
+.nav-bar {
+    width: 400px;
+}
+
+.nav-bar--list{
+    margin: 0;
+    padding-left: 0px;
+}
+
+.nav-bar--list a li {
+    list-style: none;
+    margin: 11px 0;
+}
+.nav-bar--list a {
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    font-size: 30px;
+}
+
+
+.row {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
