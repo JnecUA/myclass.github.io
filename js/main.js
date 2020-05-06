@@ -14,3 +14,4 @@ $(function(){
     });
 });
 //Created by Maksim Klimenkov
+//All js code Wrote not me
