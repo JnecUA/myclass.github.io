@@ -42,11 +42,11 @@ body {
     font-weight: 500;
 }
 
-#school, #my-class {
+#school, #my-class, #teachers-and-lesson {
     width: 100%;
     padding-top: 80px;
     padding: 60px 0;
-    background: linear-gradient(45deg, #3503BC, #06054B);
+    background: linear-gradient(45deg, #06054B, #3503BC);
     color: white;
     text-align: center;
 }
@@ -71,6 +71,24 @@ body {
 
 #school img, #my-class img {
     width: 90%;
+}
+
+.lessons-list li{
+    margin-bottom: 50px;
+}
+
+.lessons-list li:last-child{
+    justify-content: center;
+}
+
+.lessons-list li span {
+    width: 350px;
+    height: 350px;
+}
+
+.lessons-list li img {
+    width: 290px;
+    height: 290px;
 }
 
 @keyframes flying {
@@ -109,9 +127,9 @@ body {
     padding: 0 15px;
   }
   
-@media (min-width: 575.98px){
+@media (min-width: 425px){
 .container {
-    width: 540px;
+    width: 420px;
     margin: auto;
     padding: 0;
 }
@@ -124,6 +142,12 @@ body {
 .nav-bar--list li {
     height: 36px;
 }
+}
+
+@media (min-width: 549px){
+    .container {
+        width: 540px;
+    }
 }
 
 @media (min-width: 767.98px){
