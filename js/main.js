@@ -13,5 +13,9 @@ $(function(){
             return false;
     });
 });
+$(function() {
+    $(window).on("load", function() {
+        setTimeout(() => $(".preload").css({"display": "none"}), 1000);
+    })
+});
 //Created by Maksim Klimenkov
-//All js code Wrote not me
