@@ -117,6 +117,24 @@ body {
     background-color: #EB5757;
 }
 
+#footer {
+    padding: 20px 0 50px 0;
+    background-color: #06111f;
+    color: white;
+}
+
+#footer h3 {
+    margin: 0;
+}
+
+.about-me img {
+    width: 100%;
+}
+
+.about-creating-site a {
+    color: white;
+}
+
 /*Адаптив и плюшки*/
 
 .row {
