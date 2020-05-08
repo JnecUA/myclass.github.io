@@ -148,9 +148,6 @@ body {
 }
 }
 @media (max-width: 549px){
-    .lessons-list li {
-        display: block;
-    }
     .header {
         height: 60px;
     }
@@ -162,9 +159,6 @@ body {
     .container {
         width: 540px;
     }
-    .lessons-list a li {
-        display: block;
-    }
 }
 
 @media (min-width: 767.98px){
@@ -173,12 +167,15 @@ body {
 }
 }
 
+@media(max-width: 991.98px) {
+    .lessons-list li {
+        display: block;
+    }
+}
+
 @media (min-width: 991.98px) {
 .container {
     width: 960px;
-}
-.lessons-list li {
-    display: flex;
 }
 }
 
